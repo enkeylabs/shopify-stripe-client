@@ -1,0 +1,52 @@
+.root {
+  padding: 20px;
+}
+
+.order-wrapper {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+}
+
+.row {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: grid;
+  padding: 17px 16px;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #CBCBCB;
+}
+
+.result-wrapper {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+}
